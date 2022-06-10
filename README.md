@@ -27,11 +27,11 @@ List of all qualified wallet addresses for airdrop
 
 
 ## Snapshot Status
-| Asset | Qualified Addresses | Block Heigh | Total fairdrop per wallet |
-|-------|---------------------|-------------|---------------------------|
-| ATOM  | X                   | X           | X                         |
-| JUNO  |              22,694 |   3,473,379 |                1853.74989 |
-| OSMO  |              31,864 |   4,713,064 |               1320.267386 |
-| SCRT  | X                   | X           | X                         |
-| STARS | X                   | X           | X                         |
-| NETA  | X                   | X           | X                         |
+| Asset | Qualified Addresses | Block Height | Total fairdrop per wallet |
+|-------|---------------------|--------------|---------------------------|
+| ATOM  | X                   | X            | X                         |
+| JUNO  |              22,694 |    3,473,379 |                1853.74989 |
+| OSMO  |              31,864 |    4,713,064 |               1320.267386 |
+| SCRT  | X                   | X            | X                         |
+| STARS | X                   | X            | X                         |
+| NETA  | X                   | X            | X                         |
