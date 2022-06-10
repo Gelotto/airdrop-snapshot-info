@@ -27,7 +27,7 @@ List of all qualified wallet addresses for airdrop
 
 
 ## Snapshot Status
-| Asset | Qualified Addresses | Block Heigh | Total fairdrop per wallet |
+| Asset | Qualified Addresses | Block Height| Total fairdrop per wallet |
 |-------|---------------------|-------------|---------------------------|
 | ATOM  | X                   | X           | X                         |
 | JUNO  | X                   | X           | X                         |
