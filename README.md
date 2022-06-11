@@ -34,4 +34,4 @@ List of all qualified wallet addresses for airdrop
 | OSMO  |              31,864 |    4,713,064 |               1320.267386 |
 | SCRT  | X                   | X            | X                         |
 | STARS | X                   | X            | X                         |
-| NETA  | X                   | X            | X                         |
+| NETA  |               3,843 |    3,473,617 |               10946.91647 |
