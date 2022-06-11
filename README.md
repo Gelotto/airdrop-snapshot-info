@@ -32,6 +32,6 @@ List of all qualified wallet addresses for airdrop
 | ATOM  | X                   | X            | X                         |
 | JUNO  |              22,694 |    3,473,379 |                1853.74989 |
 | OSMO  |              31,864 |    4,713,064 |               1320.267386 |
-| SCRT  | X                   | X            | X                         |
+| SCRT  |              19,564 |    3,808,375 |               2150.327131 |
 | STARS | X                   | X            | X                         |
 | NETA  |               3,843 |    3,473,617 |               10946.91647 |
