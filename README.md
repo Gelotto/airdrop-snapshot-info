@@ -35,3 +35,7 @@ List of all qualified wallet addresses for airdrop
 | SCRT  |              19,564 |    3,808,375 |              2,150.327131 |
 | STARS |              15,937 |    3,335,390 |              2,639.706344 |
 | NETA  |               3,843 |    3,473,617 |              10,946.91647 |
+
+## Merged Data
+The `merge.json` file contains all data from all CSV files in the form of a
+single JSON file.
