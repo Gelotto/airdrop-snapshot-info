@@ -14,17 +14,16 @@ from urllib.request import urlopen
 def main(output_filepath: str = "./merged.json"):
     url_template = "https://raw.githubusercontent.com/Gelotto/airdrop-snapshot-info/main/{}.txt"
     assets = ["atom", "juno", "scrt", "neta", "osmo", "stars"]
-    prefixes = ["cosmos", "juno", "secret", "neta", "osmo", "stars"]
-    merged = {}
+    merged = []
 
     print("merging airdrop CSV files...")
 
-    for asset, prefix in zip(assets, prefixes):
+    for asset in assets:
         csv_file_url = url_template.format(asset)
         print(f"fetching {csv_file_url}...")
         csv_lines = [line.decode() for line in urlopen(csv_file_url)]
         for addr, _, amount in csv.reader(csv_lines[1:]):
-            merged[addr] = float(amount)
+            merged.append({"address": addr, "amount": float(amount)})
 
     print(f"writing merged data to {output_filepath}...")
 
