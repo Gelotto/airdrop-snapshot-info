@@ -53,3 +53,9 @@ single JSON file.
 | Giveaway          |         7%  | 70          | distributed through various events and giveaways (e.g., world treasure hunts, NFTs)|                     |
 | Dev Team          |         3%  | 30          | Vesting over 12 months                                                             |
 | Total             |        100% | 1000        |                                                                                    |
+
+
+### Snapshot Status
+| Asset | Qualified Addresses | Block Height | Total fairdrop per wallet |
+|-------|---------------------|--------------|---------------------------|
+| EVMOS |              XXX    |   2,907,248  |               1           |
