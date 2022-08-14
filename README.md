@@ -1,8 +1,10 @@
 # airdrop-snapshot-info
+
+## GLTO
 List of all qualified wallet addresses for airdrop 
 
 
-## Tokenomics
+### Tokenomics
 | Owner             | Percentage  | Toal        | Note                                     |
 |-------------------|-------------|-------------|------------------------------------------|
 | 1st Airdrop       |         60% | 252,414,000 | Fairdrop ATOM/JUNO/OSMO/SCRT/STARS/NETA  |
@@ -12,7 +14,7 @@ List of all qualified wallet addresses for airdrop
 | Total             |        100% | 420,690,000 |                                          |
 
 
-## Airdrop Requirement 
+### Airdrop Requirement 
 | Asset | Staked Amount Needed |
 |-------|----------------------|
 | ATOM  |                   50 |
@@ -26,7 +28,7 @@ List of all qualified wallet addresses for airdrop
 | NETA  |                0.5 |
 
 
-## Snapshot Status
+### Snapshot Status
 | Asset | Qualified Addresses | Block Height | Total fairdrop per wallet |
 |-------|---------------------|--------------|---------------------------|
 | ATOM  |              73,975 |   10,866,135 |               568.6921257 |
@@ -36,6 +38,18 @@ List of all qualified wallet addresses for airdrop
 | STARS |              15,937 |    3,335,390 |              2,639.706344 |
 | NETA  |               3,843 |    3,473,617 |              10,946.91647 |
 
-## Merged Data
+### Merged Data
 The `merged.json` file contains all data from all CSV files in the form of a
 single JSON file.
+
+
+## GKEY
+### Tokenomics
+| Owner             | Percentage  | Toal        | Note                                                                                |
+|-------------------|-------------|-------------|-------------------------------------------------------------------------------------|
+| Hold 10K GLTO     |         30% | 300         | Fairdrop, hold on Juno or Osmo chain                                               |
+| LP Provider       |         30% | 300         | JunoSwap & Osmo GLTO/GKEY liquidity pools                                          |
+| Gelotto validators|         30% | 300         | JUNO: 50, STARS: 1000, EVMOS 69                                                    |
+| Giveaway          |         7%  | 70          | distributed through various events and giveaways (e.g., world treasure hunts, NFTs)|                     |
+| Dev Team          |         3%  | 30          | Vesting over 12 months                                                             |
+| Total             |        100% | 1000        |                                                                                    |
