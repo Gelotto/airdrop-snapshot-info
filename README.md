@@ -55,7 +55,3 @@ single JSON file.
 | Total             |        100% | 1000        |                                                                                    |
 
 
-### Snapshot Status
-| Asset | Qualified Addresses | Block Height | Total fairdrop per wallet |
-|-------|---------------------|--------------|---------------------------|
-| EVMOS |              XXX    |   2,907,248  |               1           |
