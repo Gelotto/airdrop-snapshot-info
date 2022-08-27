@@ -1,4 +1,4 @@
-# Early Supporter GKEY
+# Early Supporter Incentives
 
 Due to early delegators losing out on rewards due to our validators not being in active set, if minimum amount staked, qualify for fairdrop. 
 
