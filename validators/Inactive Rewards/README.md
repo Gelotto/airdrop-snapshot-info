@@ -16,5 +16,5 @@ Due to early delegators losing out on rewards due to our validators not being in
 | Date    | Qualified Addresses | Block Height | Minimum Staked Needed | GLTO Fairdrop |
 |---------|---------------------|--------------|-----------------------|---------------|
 | 8/26/22 | 326                 | 5,759,376    | 100                   |               |
-|         |                     |              |                       |               |
+| 8/27/22 | 391                 | 5,771,214    | 100                   |               |
 |         |                     |              |                       |               |
