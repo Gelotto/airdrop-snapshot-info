@@ -12,3 +12,4 @@
 | Chain   | Block Height        | Qualified Addresses | GLTO Fairdrop |
 |---------|---------------------|---------------------|---------------|
 | OSMO    | 5,829,386           | 466                 | XXX           |  
+| JUNO    | 4,613,114           | 1748                | XXX           |  
