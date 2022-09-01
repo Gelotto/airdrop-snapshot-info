@@ -6,7 +6,7 @@
 | JUNO  | 50                  | 
 | STARS | 1000                | 
 | EVMOS | 69                  |            
-! OSMO  | 100                 |
+| OSMO  | 100                 |
 
 ## 1/14
 | Chain   | Block Height        | Qualified Addresses | GLTO Fairdrop |
