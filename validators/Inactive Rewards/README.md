@@ -13,9 +13,10 @@ Due to early delegators losing out on rewards due to our validators not being in
 
 
 ## OSMO 14 Days GLTO Incentives (100-200K GLTO)
-| Date    | Qualified Addresses | Block Height | Minimum Staked Needed | GLTO Fairdrop |
+| Number    | Qualified Addresses | Block Height | Minimum Staked Needed | GLTO Fairdrop |
 |---------|---------------------|--------------|-----------------------|---------------|
-| 8/26/22 | 326                 | 5,759,376    | 100                   |               |
-| 8/27/22 | 391                 | 5,771,214    | 100                   |               |
-| 8/29/22 | 428                 | 5,797,947    | 100                   |               |
-| 8/30/22 | 431                 | 5,801,783    | 100                   |               |
+| 1       | 326                 | 5,759,376    | 100                   |               |
+| 2       | 391                 | 5,771,214    | 100                   |               |
+| 3       | 428                 | 5,797,947    | 100                   |               |
+| 4       | 431                 | 5,801,783    | 100                   |               |
+| 5       | 466                 | 5,829,324    | 100                   |               |
