@@ -8,7 +8,7 @@
 | EVMOS | 69                  |            
 | OSMO  | 100                 |
 
-## 1/14
+## 1/12
 | Chain   | Block Height        | Qualified Addresses | GKEY Fairdrop |
 |---------|---------------------|---------------------|---------------|
 | OSMO    | 5,829,386           | 466                 | XXX           |  
