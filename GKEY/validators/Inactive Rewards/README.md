@@ -25,3 +25,4 @@ Due to early delegators losing out on rewards due to our validators not being in
 | 8       | 500                 | 5,921,156    | 100                   |               |
 | 9       | 500                 | 5,922,119    | 100                   |               |
 | 10      | 500                 | 5,923,612    | 100                   |               |
+| 11      | 500                 | 5,937,777    | 100                   |               |
