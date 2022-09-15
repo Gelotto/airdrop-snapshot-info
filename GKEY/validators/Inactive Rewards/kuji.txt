@@ -1,4 +1,4 @@
-address, amount staked, GLTO
+address, amount staked, GKEY
 kujira1760d9jkledghjckd65gemglkv8cpq732q9ck2n, 100, XXX
 kujira1p8sxus9tn3gnt90sdnw5d6xtmxvl4um3l5yn8t, 500, XXX
 kujira16c8fzh6v877u3wjndrd6ryac6sv5c3ptvsgy06, 100, XXX
