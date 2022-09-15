@@ -9,7 +9,7 @@ Due to early delegators losing out on rewards due to our validators not being in
 |-------|---------------------|--------------|-----------------------|---------------|
 | EVMOS | XXX                 | 2,907,248    | 69                    |               |
 | OSMO  | 326                 | 5,759,376    | 100                   | 0.0031        |
-|       |                     |              |                       |               |
+| KUJI  | 156                 | 3,000,064    | 100                   | 0.0065        |
 
 
 ## OSMO 14 Days GLTO Incentives (100-200K GLTO)
