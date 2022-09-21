@@ -7,4 +7,6 @@ Hold a minimum combined of 10K GLTO across Juno + Osmo chain to qualify for GKEY
 | OSMO    | 5,837,616           |
 | JUNO    | 4,621,334           | 
 
-Total qualified JUNO addresses: 2,808
+| Qualified Addresses   | GKEY Fairdrop       |
+|-----------------------|---------------------|
+| 2,808                 | 0.00890             |
