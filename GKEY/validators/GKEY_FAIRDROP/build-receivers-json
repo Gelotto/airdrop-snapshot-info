@@ -1,0 +1,46 @@
+#!/usr/bin/env python
+
+import subprocess as sp
+import re
+import os
+import sys
+import json
+
+from typing import Iterator
+from collections import defaultdict
+
+# Ex: './1'
+data_dir = sys.argv[1]
+
+
+def merge(amounts: dict) -> dict:
+    merged = defaultdict(int)
+    for asset, amount in amounts.items():
+        file_path = os.path.join(data_dir, f'{asset}.txt')
+        text = bech32_convert_file(file_path, asset)
+        for juno_addr in iter_juno_addresses(text):
+            merged[juno_addr] += int(1e6 * amount)
+    return [
+        {
+            'address': juno_addr,
+            'amount': str(merged_amount),
+        }
+        for juno_addr, merged_amount in merged.items()
+    ]
+
+
+def bech32_convert_file(path: str, from_prefix: str, to_prefix: str = 'juno'):
+    cmd = f'sh ./bech32-convert-file {path} {from_prefix} {to_prefix}'
+    proc = sp.Popen(cmd.split(), stdout=sp.PIPE)
+    return proc.stdout.read().decode()
+
+
+def iter_juno_addresses(text: str) -> Iterator:
+    return (x[0] for x in re.finditer(r'juno\w+', text))
+
+
+if __name__ == '__main__':
+    with open(os.path.join(data_dir, 'amounts.json')) as amounts_json_file:
+        amounts = json.load(amounts_json_file)
+        merged = merge(amounts)
+        print(json.dumps(merged))
