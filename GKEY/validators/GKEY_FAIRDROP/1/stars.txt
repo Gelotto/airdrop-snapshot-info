@@ -1,4 +1,4 @@
-address, amount staked, GLTO
+address, amount staked, GKEY
 stars1zmk7hgf30vjkgla3p7wyjy88gtyjvp2u773qqz, 1062, XXX
 stars1qttl5s2dvle54q4f9amy8wyyefep5mlzpku67c, 1020, XXX
 stars1zalhqdjqye3d66r907e0290kw0xc4hnjh7sunc, 2000, XXX
