@@ -1,4 +1,4 @@
-address, amount staked, GLTO
+address, amount staked, GKEY
 osmo17ujc0l8f0fqtfvmvyvq2ud0ycn8num93sur8lc, 103, 1320.267386
 osmo1ghxyayq428xql3ljh93eh9r7rdcff3lng39grv, 100, 1320.267386
 osmo148uynz2ylsmt46emmajvxfwjny283pued48fcv, 102, 1320.267386

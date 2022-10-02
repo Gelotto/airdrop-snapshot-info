@@ -1,4 +1,4 @@
-address, amount staked, GLTO
+address, amount staked, GKEY
 juno1wy9zgymglx4w7w9gju9043uurv3qyfp7mfuems, 50, XXX
 juno10lsjtrjwyeq29daqczlumr25k7c0zpu5q4cv48, 80, XXX
 juno1dnpuu3wwawwkr4vjpd7h4368l3ukzwygpy93cm, 51, XXX

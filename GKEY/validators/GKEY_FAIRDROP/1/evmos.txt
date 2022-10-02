@@ -1,4 +1,4 @@
-address, amount staked, GLTO
+address, amount staked, GKEY
 evmos1x74fg90jatl0dcm2dmxamvmrkzskvmu7cyawsp, 69, XXX
 evmos15eh4dld36jtmp0nk6250ax2ca7ml5fjkuf944v, 71, XXX
 evmos198x05zd4tarzr4rp5f8qxadjxg5ut4qx88wdk3, 89, XXX
