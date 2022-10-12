@@ -1646,7 +1646,6 @@ evmos1sx45kcpu05yuqed2qs3mq7n9xrlsda28t2h2c4, 722, XXX
 evmos1v2u02j7u0cracj477e6yhzvc06k4j9neu8vd04, 100, XXX
 evmos1m95er9p5us30yes7j3yfn5dtqyvjfxw7y7q2j7, 78, XXX
 evmos1l2kjujur56a766e0swvvg3yl7ucm0g46euc7ec, 70, XXX
-evmos1tq6gchxx3fq4ckwkxpk879mpjh7sg2hsrgqza5, 91, XXX
 evmos1y72ek2jcyf7w5cxerqdpzwcvnme4ylxpd0538n, 500, XXX
 evmos1uwencn5velnj30a44h3h94qq8j8uv0jjxy2040, 100, XXX
 evmos1dlgpj4h6fuprhltjvpj9audvvfuvlqrxzvpkuy, 70, XXX
