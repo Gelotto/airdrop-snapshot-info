@@ -7,6 +7,8 @@
 | STARS | 1000                | 
 | EVMOS | 69                  |            
 | OSMO  | 100                 |
+| KUJI  | 100                 |
+| TORI  | 250                 |
 
 ## 1/12
 | Chain   | Block Height        | Qualified Addresses | GKEY Fairdrop |
@@ -24,3 +26,13 @@
 | STARS   | 4,921,342           | 3128                | 0.0016        |  
 | EVMOS   | 5,136,346           | 2488                | 0.00201       |  
 | KUJI    | 3,605,826           | 124                 | 0.0404        | 
+
+## 3/12
+| Chain   | Block Height        | Qualified Addresses | GKEY Fairdrop |
+|---------|---------------------|---------------------|---------------|
+| OSMO    | 6,690,645           | 1,368               |               |  
+| JUNO    | 5,482,448           | 2,583               |               |  
+| STARS   | 5,360,162           | 3,316               |               |  
+| EVMOS   | 6,527,835           | 2,672               |               |  
+| KUJI    | 4,694,113           | 192                 |               | 
+| TORI    | 428,447             | 329                 |               |
