@@ -1,4 +1,3 @@
-HEIGHT=6,527,835
 address, amount staked, GKEY
 evmos1qr4sjtyzdpyh8qlj8zqt2vv6e6vmpgrw5nfe0c, 150, XXX
 evmos1jcl95037dudkcy5d48lu0uhahz7q6l683uc26g, 139, XXX

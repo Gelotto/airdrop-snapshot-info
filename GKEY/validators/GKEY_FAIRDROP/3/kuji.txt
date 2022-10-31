@@ -1,4 +1,3 @@
-HEIGHT=4,694,113
 address, amount staked, GKEY
 kujira1kvg8medh838ec94gxdkf6ckedx77l8ftfhyuj3, 100, XXX
 kujira1t7g39k46vtlwtjr8uw2r9tsjdhqksw2e9pvc72, 151, XXX

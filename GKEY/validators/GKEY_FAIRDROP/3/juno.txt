@@ -1,4 +1,3 @@
-HEIGHT=5,482,448
 address, amount staked, GKEY
 juno1da85gjhaupl8ae7ee66sw9zh585uu9j3flavda, 50, XXX
 juno1qj3rzpu4eknfcufzvtxvdmelc3hu2fa2cq0k9w, 54, XXX

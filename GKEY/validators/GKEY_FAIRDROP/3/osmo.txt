@@ -1,4 +1,3 @@
-HEIGHT=6,690,645
 address, amount staked, GKEY
 osmo1qzthccvl8fdm62t9843fllfntahwztm8ezvwvf, 170, XXX
 osmo1rfyweuf82wdrcu0dg6u22cxrsgnfhuuxdqw0vc, 110, XXX
