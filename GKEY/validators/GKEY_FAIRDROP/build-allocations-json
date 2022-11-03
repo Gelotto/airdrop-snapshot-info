@@ -16,11 +16,13 @@ data_dir = sys.argv[1]
 def build(amounts: dict) -> dict:
     allocations = defaultdict(lambda: {'amount': 0, 'assets': []})
     for asset, amount in amounts.items():
+        if asset == 'evmos':
+            continue
         file_path = os.path.join(data_dir, f'{asset}.txt')
         text = bech32_convert_file(file_path, asset)
         for juno_addr in iter_juno_addresses(text):
-            allocations[juno_addr]['amount'] += int(1e6 * amount)
             allocations[juno_addr]['assets'].append(asset)
+            allocations[juno_addr]['amount'] += int(amount * 1e6)
 
     # cast int amount to string
     for allocation in allocations.values():

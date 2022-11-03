@@ -16,6 +16,9 @@ data_dir = sys.argv[1]
 def merge(amounts: dict) -> dict:
     merged = defaultdict(int)
     for asset, amount in amounts.items():
+        if asset == 'evmos':
+            # skip evmos. handled differently.
+            continue
         file_path = os.path.join(data_dir, f'{asset}.txt')
         text = bech32_convert_file(file_path, asset)
         for juno_addr in iter_juno_addresses(text):
