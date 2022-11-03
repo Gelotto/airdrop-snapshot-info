@@ -5,7 +5,7 @@ from collections import defaultdict
 
 
 with open('juno-osmo-1.txt') as fin:
-    allocations = defaultdict(lambda: {'amount': 0, 'assets': []})
+    allocations = defaultdict(lambda: {'amount': 0, 'assets': ['glto']})
     receivers = []
     fin.readline() # skip header line
     for line in fin.readlines():
@@ -13,10 +13,6 @@ with open('juno-osmo-1.txt') as fin:
         amount = int(0.0089 * 1e6)
         allocations[juno_addr]['amount'] = str(amount)
         receivers.append({"address": juno_addr, "amount": str(amount)})
-        if float(juno_amount) > 0:
-            allocations[juno_addr]['assets'].append('juno')
-        if float(osmo_amount) > 0:
-            allocations[juno_addr]['assets'].append('osmo')
             
 with open('allocations.json', 'w') as allocations_file:
     json.dump(allocations, allocations_file)
