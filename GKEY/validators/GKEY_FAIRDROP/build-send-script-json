@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+
+import subprocess as sp
+import re
+import os
+import sys
+import json
+
+from typing import Iterator
+from collections import defaultdict
+
+# Ex: './1'
+data_dir = sys.argv[1]
+
+
+def build(amounts: dict) -> dict:
+    addr2amount = defaultdict(int)
+    for asset, amount in amounts.items():
+        if asset == 'evmos':
+            continue
+        file_path = os.path.join(data_dir, f'{asset}.txt')
+        text = bech32_convert_file(file_path, asset)
+        for juno_addr in iter_juno_addresses(text):
+            addr2amount[juno_addr] += int(amount * 1e6)
+
+    # cast int amount to string
+    for k, v in addr2amount.items():
+        addr2amount[k] = str(v)
+
+    print(f'total amount: {sum(float(x)/1e6 for x in addr2amount.values())}')
+    print(f'total amount (micro): {sum(int(x) for x in addr2amount.values())}')
+    return addr2amount
+
+
+def bech32_convert_file(path: str, from_prefix: str, to_prefix: str = 'juno'):
+    cmd = f'sh ./bech32-convert-file {path} {from_prefix} {to_prefix}'
+    proc = sp.Popen(cmd.split(), stdout=sp.PIPE)
+    return proc.stdout.read().decode()
+
+
+def iter_juno_addresses(text: str) -> Iterator:
+    return (x[0] for x in re.finditer(r'juno\w+', text))
+
+
+if __name__ == '__main__':
+    with open(os.path.join(data_dir, 'amounts.json')) as amounts_json_file:
+        with open(os.path.join(data_dir, 'send-amounts.json'), 'w') as f_out:
+            json.dump(build(json.load(amounts_json_file)), f_out)
