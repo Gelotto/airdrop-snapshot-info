@@ -12,6 +12,8 @@ Due to early delegators losing out on rewards due to our validators not being in
 | KUJI  | 156                 | 3,000,064    | 100                   | 0.0065        | Sent     |
 | TORI  | 271                 | 266,309      | 250                   | 0.00369       | Sent     |
 | Atom  | 85                  | 12,909,141   | 35                    | 0.0119        | Not Sent |
+| Rebus | XXX                 | 2,330,439    | 600                   |               | Not Sent |
+
 
 
 
