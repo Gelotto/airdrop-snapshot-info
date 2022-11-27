@@ -1,0 +1,7 @@
+#!/bin/sh
+
+path=$1
+from=$2
+to=$3
+
+cat $path | bech32-convert -from $from -to $to

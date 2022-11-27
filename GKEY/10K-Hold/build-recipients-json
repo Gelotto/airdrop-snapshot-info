@@ -1,0 +1,59 @@
+#!/usr/bin/env python
+
+import json
+import sys
+import subprocess as sp
+import re
+
+from collections import defaultdict
+
+GLTO_DENOM = 'ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E'
+
+
+def bech32_convert_file(path: str, from_prefix: str, to_prefix: str = 'juno'):
+    cmd = f'sh ./bech32-convert-file {path} {from_prefix} {to_prefix}'
+    proc = sp.Popen(cmd.split(), stdout=sp.PIPE)
+    return proc.stdout.read().decode()
+
+
+def main():
+    candidates = defaultdict(int)
+
+    # extract GLTO balance on Osmosis
+    fpath = sys.argv[1]
+    json_data = bech32_convert_file(fpath, 'osmo', 'juno')
+    data = json.loads(json_data)
+    accounts = data['accounts']
+    for juno_addr, account in accounts.items():
+        balances = account.get('liquid_balance', [])
+        if balances:
+            for balance in balances:
+                is_glto = balance['denom'] == GLTO_DENOM
+                if is_glto:
+                    print(juno_addr)
+                    candidates[juno_addr] = int(balance['amount'])
+
+    # add to GLTO balances from JUNO snapshot
+    with open(sys.argv[2]) as fin:
+        fin.readline()
+        for line in fin.readlines():
+            raw_juno_addr, raw_amount = line.strip().split(',')
+            juno_addr = re.search(r'juno\w+', raw_juno_addr)[0]
+            amount = int(float(raw_amount) * 1e6)
+            candidates[juno_addr] += amount
+
+    # project only those candidate wallets with 10K or more GLTO
+    # into the final recipients dict
+    recipients = {}
+    for juno_addr, amount in list(candidates.items()):
+        if amount >= int(10000e6):
+            recipients[juno_addr] = str(int(float(sys.argv[3]) * 1e6))
+
+    # save to file
+    print('recipient count:', len(recipients))
+    with open('recipients.json', 'w') as recipients_file:
+        json.dump(recipients, recipients_file)
+
+
+if __name__ == '__main__':
+    main()

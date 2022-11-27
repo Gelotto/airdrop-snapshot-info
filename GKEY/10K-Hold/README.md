@@ -33,7 +33,7 @@ This only affects the airdrop for holders of 10k GLTO (on Osmosis or Juno networ
 | Chain   | Block Height        |
 |---------|---------------------|
 | OSMO    | 6,424,426           |
-| JUNO    | 5,227,536           | 
+| JUNO    | 5,856,155           | 
 
 | Qualified Addresses   | GKEY Fairdrop       |
 |-----------------------|---------------------|
