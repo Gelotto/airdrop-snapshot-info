@@ -1,14 +1,19 @@
 # GKEY Validators Fairdrop 
 12 months of Fairdrop if you stake minimum amount to Gelotto Validators
 
-| Chain | Minimum Staked      | 
-|-------|---------------------|
-| JUNO  | 50                  | 
-| STARS | 1000                | 
-| EVMOS | 69                  |            
-| OSMO  | 100                 |
-| KUJI  | 100                 |
-| TORI  | 250                 |
+| Chain  | Minimum Staked      | 
+|--------|---------------------|
+| JUNO   | 50                  | 
+| STARS  | 1000                | 
+| EVMOS  | 69                  |            
+| OSMO   | 100                 |
+| KUJI   | 100                 |
+| TORI   | 250                 |
+| ATOM   | 35                  |                     
+| JKL    | 60                  |                     
+| REBUS  | 600                 |                     
+| HUAHUA | 500,000             |                     
+| STRD   | 400                 |  
 
 ## 1/12
 | Chain   | Block Height        | Qualified Addresses | GKEY Fairdrop |
@@ -36,3 +41,18 @@
 | EVMOS   | 6,527,835           | 2,672               | 0.001556      |  
 | KUJI    | 4,694,113           | 192                 | 0.021666      | 
 | TORI    | 428,447             | 329                 | 0.012644      |
+
+## 4/12
+| Chain   | Block Height        | Qualified Addresses | GKEY Fairdrop |
+|---------|---------------------|---------------------|---------------|
+| OSMO    | 7,132,087           | 1,458               |               |  
+| JUNO    | 5,913,307           | 2,618               |               |  
+| STARS   | 5,802,188           | 3,230               |               |  
+| EVMOS   |                     |                     |               |  
+| KUJI    |                     |                     |               | 
+| TORI    |                     |                     |               |
+| ATOM    |                     |                     |               |
+| JKL     |                     |                     |               |
+| REBUS   |                     |                     |               |
+| HUAHUA  |                     |                     |               |
+| STRD    |                     |                     |               | 
