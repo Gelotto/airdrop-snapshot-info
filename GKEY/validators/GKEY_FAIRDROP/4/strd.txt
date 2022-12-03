@@ -1,0 +1,19 @@
+address, amount staked, GKEY
+stride1lewrntjs242rlcvxq6hagpxteh2g80864dv0dk, 400, XXX
+stride18qs69kefuwr8zfvm4evgungzyv690snjug5c6v, 400, XXX
+stride15y2jy3uatqlavdmjkfr779dydgjqk43ax7pjjn, 400, XXX
+stride1vzxt2akmr76ddg7epxklnwmdjz5m04l3l7kf07, 439, XXX
+stride122rargcl5j60kka0yyj6e0jemvvm0m77n8j86p, 400, XXX
+stride1vewrtkcatncl5qgt9djtcn0j28ukqjlnsvews7, 400, XXX
+stride15y2cvrfjg5gy9a9tsws8q6tz6t00ndss65neta, 417, XXX
+stride1je9h09ll9aqrh8345makhsnk7fa2n96e5dczm6, 400, XXX
+stride1m8nrmn5ykxxzeqkkzq4ztms9ceccp9723fqa5m, 407, XXX
+stride1049ye8lese3s2a6rr2quh3des6pynmqpxwzj53, 504, XXX
+stride1jume25ttjlcaqqjzjjqx9humvze3vcc8h7ah3z, 5014, XXX
+stride1j7fgj7v9nqjg6wfda9paldcxezd8yv4qagazux, 664, XXX
+stride1shmytvj3rsmyyajwyx6s08wclvsg3mly50ne3t, 405, XXX
+stride18fl5chxs3fva0p9cgqg0dyxgplx8k32qsjy0z6, 400, XXX
+stride1rsdq2dwgfhqn3e242l55e86gj7x8yyaj93puds, 400, XXX
+stride1ucj4xmmq3ykgkw2halpf24h5n2awsu2t5gdm2j, 600, XXX
+stride1syu95rss3auvee24p8rsg422xr5cpu8eyx6p7r, 400, XXX
+stride1uym3mu9xsdvykvr320aefkp6vh78mgvaunqj3j, 400, XXX
