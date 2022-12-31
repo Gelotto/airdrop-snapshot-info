@@ -1,4 +1,3 @@
-856,901
 address, amount staked, GKEY
 jkl1tdry23dspgsmp55zywtjgw0f57neevvw7ul483, 52, XXX
 jkl1w5fx38v5nufynhynx43hutvw7al5jwgd0ad62p, 52, XXX

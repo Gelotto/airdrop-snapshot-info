@@ -1,4 +1,3 @@
-13,478,667
 address, amount staked, GKEY
 cosmos1rtn4ydkuqpurcwvycc5pquwzmfp0rwvhq7jvut, 35, XXX
 cosmos1xusmwr85xvl7vezpmv8gsm97svyfzczfe4ac3z, 40, XXX

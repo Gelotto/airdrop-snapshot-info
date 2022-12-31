@@ -1,4 +1,3 @@
-6,721,829
 address, amount staked, GKEY
 kujira170djg9j2eajgkxd48g6wy3ddhvnknmfngtr0ep, 272, XXX
 kujira1jhgyx8rzftvvge0tqm9nuawv4uldej3xhd27w9, 100, XXX

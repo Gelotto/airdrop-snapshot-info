@@ -1,4 +1,3 @@
-7,589,132
 address, amount staked, GKEY
 osmo19dx6xr5pqg83f45d43xfsuczvnlk37w8jvjmuj, 104, XXX
 osmo1tv24gq0zl4s3j62tr6lh544pqp0gkr5ux4v4qe, 110, XXX

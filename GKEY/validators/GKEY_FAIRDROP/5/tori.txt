@@ -1,4 +1,3 @@
-1,338,079
 address, amount staked, GKEY
 tori1d25htcn42sg9vyw3zkqapfprsps7dshmu735qg, 450, XXX
 tori1smk9ckvx8p0af7xrrzmvychngpyqrz7gny65j3, 1249, XXX

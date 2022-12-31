@@ -1,4 +1,3 @@
-6,348,462
 address, amount staked, GKEY
 juno172fm5dvkkj0f90s6fjfqrtvq90wc22u8f860z5, 60, XXX
 juno1ynp5697gjtesj2qd4qnmrdyfl89sfy7p7zazvv, 61, XXX

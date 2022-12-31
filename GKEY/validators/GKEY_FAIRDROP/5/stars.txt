@@ -1,4 +1,3 @@
-6,248,219
 address, amount staked, GKEY
 stars1m4q0flsgzsjm36rpvq3lkz49aard5n9tq8c7lr, 1000, XXX
 stars1ld28z339zs3jzgnxvg5xwmgck4wrc0y4gxvy65, 1000, XXX

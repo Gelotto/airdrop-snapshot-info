@@ -1,4 +1,3 @@
-3,269,750
 {
   "delegation_responses": [
     {"delegation":{"delegator_address":"rebus1qqu02apczrl9edxmyvrfd4ap5g9c3jlawrgpkf","validator_address":"rebusvaloper1j7fgj7v9nqjg6wfda9paldcxezd8yv4q37z5fl","shares":"654307857100558390718.000000000000000000"},"balance":{"denom":"arebus","amount":"654307857100558390718"}},

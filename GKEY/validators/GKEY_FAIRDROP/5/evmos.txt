@@ -1,4 +1,3 @@
-9,353,937
 address, amount staked, GKEY
 evmos1yrv9nkjxtza28vz3qdcgz687udvehwnjcf70u2, 253, XXX
 evmos1e3qzjc7ux5cuq4j4l8d7h0tuk5txfex84n9zc7, 70, XXX

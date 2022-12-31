@@ -1,4 +1,3 @@
-5,457,986
 address, amount staked, GKEY
 chihuahua10qznkpv7trh8z3fsm0m9rlu258tj44tmcdwkhq, 517560, XXX
 chihuahua1sps7dyzmgwedeg9va7qkcna422eyl5wtyec9pa, 517569, XXX
