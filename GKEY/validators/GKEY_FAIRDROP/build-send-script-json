@@ -9,8 +9,13 @@ import json
 from typing import Iterator
 from collections import defaultdict
 
-# Ex: './1'
-data_dir = sys.argv[1]
+data_dir = sys.argv[1]  # Ex: './1'
+denom_overrides = {
+    'huahua': 'chihuahua',
+    'atom': 'cosmos',
+    'strd': 'stride',
+    'kuji': 'kujira',
+}
 
 
 def build(amounts: dict) -> dict:
@@ -19,12 +24,35 @@ def build(amounts: dict) -> dict:
     """
     addr2amount = defaultdict(int)
     for asset, amount in amounts.items():
-        if asset == 'evmos':
+        if asset in {'evmos'}:
             continue
+
         file_path = os.path.join(data_dir, f'{asset}.txt')
-        text = bech32_convert_file(file_path, asset)
+        denom = denom_overrides.get(asset, asset)
+
+        if asset == 'rebus':
+            with open(file_path) as raw_json_file:
+                delegations = json.load(raw_json_file).get('delegation_responses')
+                if delegations:
+                    qualifiers = {}
+                    for delegation in delegations:
+                        bal = delegation['balance']
+                        if bal['denom'] == denom:
+                            amount = int(bal['amount'])
+                            if amount >= 600e18:
+                                addr = delegation['delegation']['delegator_address']
+                                qualifiers[addr] = amount
+
+                    with open(file_path, 'w') as rebus_json_file:
+                        json.dump(qualifiers, rebus_json_file)
+             
+        text = bech32_convert_file(file_path, denom)
+        asset_addr_count = 0
         for juno_addr in iter_juno_addresses(text):
             addr2amount[juno_addr] += int(amount * 1e6)
+            asset_addr_count += 1
+
+        print(f'{asset_addr_count} {asset} recipients')
 
     # cast int amount to string
     for k, v in addr2amount.items():
