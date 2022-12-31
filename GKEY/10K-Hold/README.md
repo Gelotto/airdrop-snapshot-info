@@ -38,3 +38,10 @@ This only affects the airdrop for holders of 10k GLTO (on Osmosis or Juno networ
 | Qualified Addresses   | GKEY Fairdrop       |
 |-----------------------|---------------------|
 | 2,808                 | 0.00892             |
+
+## Snapshot 3
+Due to a mistake in the second installment of the airdrop's autosend script, some wallets were "double-sent". Therefore, we adjusted for this in the third installment. As a result, we ended up sending to 2,449 wallets as opposed to the full number: 2,841. Sorry for the inconvenience!
+
+| Qualified Addresses     | GKEY Fairdrop       |
+|-------------------------|---------------------|
+| 2,808 (2,449 effective) | 0.010208            |
