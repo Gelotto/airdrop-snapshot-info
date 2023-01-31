@@ -22,10 +22,16 @@ def bech32_convert_file(path: str, from_prefix: str, to_prefix: str = 'juno'):
 
 
 def main():
+    """
+    CLI Args:
+        1. OSMO snapshot filepath
+        2. JUNO snapshot filepath
+    """
     candidates = defaultdict(int)
 
     # extract GLTO balance on Osmosis
     fpath = sys.argv[1]
+
     json_data = bech32_convert_file(fpath, 'osmo', 'juno')
     data = json.loads(json_data)
     accounts = data['accounts']
@@ -35,7 +41,6 @@ def main():
             for balance in balances:
                 is_glto = balance['denom'] == GLTO_DENOM
                 if is_glto:
-                    print(juno_addr)
                     candidates[juno_addr] = int(balance['amount'])
 
     # add to GLTO balances from JUNO snapshot
