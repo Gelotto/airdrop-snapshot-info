@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+
+import subprocess as sp
+import re
+import os
+import sys
+import json
+
+from typing import Iterator
+from collections import defaultdict
+
+denom_overrides = {
+    'huahua': 'chihuahua',
+    'atom': 'cosmos',
+    'strd': 'stride',
+    'kuji': 'kujira',
+}
+
+
+def compute_gkey_amount(data_dir: str, total_amount: float) -> dict:
+    """ Merge amounts into a single dict with JUNO address keys mapped to
+        total airdrop amount values.
+    """
+    asset = 'rebus'
+    file_path = os.path.join(data_dir, f'{asset}.txt')
+    denom = 'arebus'
+
+    with open(file_path) as raw_json_file:
+        delegations = json.load(raw_json_file).get('delegation_responses')
+        if delegations:
+            qualifiers = {}
+            for delegation in delegations:
+                bal = delegation['balance']
+                if bal['denom'] == denom:
+                    amount = int(bal['amount'])
+                    if amount >= 600e18:
+                        addr = delegation['delegation']['delegator_address']
+                        qualifiers[addr] = amount
+
+        if qualifiers:
+            print(f'num addresses: {len(qualifiers)}')
+            print(f'GKEY amount: {total_gkey_amount /  len(qualifiers):.6f}')
+            print(f'GKEY amount micro: {total_gkey_amount /  len(qualifiers) * 1e6:.0f}')
+        else:
+            print('no qualified addresses found')
+
+
+if __name__ == '__main__':
+    data_dir = sys.argv[1]  # Ex: './1'
+    total_gkey_amount = float(sys.argv[2])  # Ex: 2.24343
+    compute_gkey_amount(data_dir, total_gkey_amount)

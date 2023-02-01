@@ -15,6 +15,7 @@ denom_overrides = {
     'atom': 'cosmos',
     'strd': 'stride',
     'kuji': 'kujira',
+    'rebus': 'arebus',
 }
 
 
@@ -38,15 +39,17 @@ def build(amounts: dict) -> dict:
                     for delegation in delegations:
                         bal = delegation['balance']
                         if bal['denom'] == denom:
-                            amount = int(bal['amount'])
-                            if amount >= 600e18:
+                            arebus_amount = int(bal['amount'])
+                            if arebus_amount >= 600e18:
                                 addr = delegation['delegation']['delegator_address']
                                 qualifiers[addr] = amount
 
-                    with open(file_path, 'w') as rebus_json_file:
+                    with open(os.path.join(data_dir, 'rebus.json'), 'w') as rebus_json_file:
                         json.dump(qualifiers, rebus_json_file)
-             
-        text = bech32_convert_file(file_path, denom)
+            text = bech32_convert_file(os.path.join(data_dir, 'rebus.json'), 'rebus')
+        else:
+            text = bech32_convert_file(file_path, denom)
+
         asset_addr_count = 0
         for juno_addr in iter_juno_addresses(text):
             addr2amount[juno_addr] += int(amount * 1e6)
