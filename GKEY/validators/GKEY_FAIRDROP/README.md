@@ -10,7 +10,7 @@
 | KUJI   | 100                 |
 | TORI   | 250                 |
 | ATOM   | 35                  |                     
-| JKL    | 60                  |                     
+| JKL    | 50                  |                     
 | REBUS  | 600                 |                     
 | HUAHUA | 500,000             |                     
 | STRD   | 400                 |  
