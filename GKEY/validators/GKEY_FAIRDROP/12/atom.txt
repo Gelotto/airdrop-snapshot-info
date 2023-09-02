@@ -1,0 +1,18 @@
+address, amount staked, GKEY
+cosmos1t2t8uc9cktykl9hq39ue40pjhjx99qc4c2mgqt, 101, XXX
+cosmos1tdry23dspgsmp55zywtjgw0f57neevvw8z3y7w, 60, XXX
+cosmos17q8gmyeladh7ckfghmlx72mundemz44awj8p2m, 36, XXX
+cosmos13m7eqx55zldnu72vyal828vzrypz2chvwc927v, 35, XXX
+cosmos13h5rflg27nn99emf7ecapjf6wr67mgqc7n4ztd, 52, XXX
+cosmos1pvcn0jjv2mugdevlue9vj2ks7ryjgtcc3cwlyj, 35, XXX
+cosmos12lzvcacrthkmx33dkxfce9pffnuazz5eutl8yw, 42, XXX
+cosmos1v7w4fs3eq63vfn5xqqh04pzuesj44u9es9r845, 36, XXX
+cosmos1nkwwh4t3xxzhp97ezjj9h3tyh4x93atpl30uzc, 35, XXX
+cosmos15y2jy3uatqlavdmjkfr779dydgjqk43a94pwxl, 35, XXX
+cosmos1uym3mu9xsdvykvr320aefkp6vh78mgvalcqw97, 130, XXX
+cosmos1shmytvj3rsmyyajwyx6s08wclvsg3mlyhyn998, 35, XXX
+cosmos1paeh4chy7z4qtqrg68k459ps5elkuyt2c542zw, 36, XXX
+cosmos1km3gqz2vzw075qjdwamq5xdlsyaqatx6akrk3d, 35, XXX
+cosmos12lxdlysexsvkdhu923272c4nkqkswp7j34e9f9, 35, XXX
+cosmos1j3p24vjzvdprntyf082us5g2h0rlzmycf64xsw, 35, XXX
+cosmos1w6dpa2l2fc3v2rc9dpuhqg4lt6ykvlqgq0k82p, 70, XXX
