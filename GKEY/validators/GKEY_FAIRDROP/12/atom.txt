@@ -1,4 +1,3 @@
-height:16833522
 address, amount staked, GKEY
 cosmos1t2t8uc9cktykl9hq39ue40pjhjx99qc4c2mgqt, 101, XXX
 cosmos1tdry23dspgsmp55zywtjgw0f57neevvw8z3y7w, 60, XXX
